@@ -492,7 +492,7 @@ class CertificateGen(object):
         # default is to use the DejaVu font for the name,
         # will fall back to Arial if there are
         # unusual characters
-        #style = styleOpenSans
+        style = styleOpenSans
         style.leading = 10
         # width = stringWidth(student_name.decode('utf-8'), 'OpenSans-Bold', 34) / mm
         # paragraph_string = "<b>{0}</b>".format(student_name)
